@@ -1,0 +1,18 @@
+apiVersion: vendir.k14s.io/v1alpha1
+kind: Config
+directories:
+- path: src
+  contents:
+  - path: config
+    git:
+      url: https://github.com/kriipke/demo-gitops-appsets
+      ref: main
+    includePaths:
+    - bootstrap/**
+    - clusters/**
+  - path: charts
+    git:
+      url: https://github.com/kriipke/demo-gitops-charts
+      ref: main
+    includePaths:
+    - charts/**
