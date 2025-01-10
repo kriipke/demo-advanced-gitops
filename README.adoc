@@ -1,4 +1,13 @@
-# GITOPS PLATFORM CONFIGURATION 
+= Advanced Gitops Template
+
+[![Build status](https://github.com/kriipke/demo-gitops)](https://github.com/boolpurist/week_calendar_cli/actions)
+
+This repository is a skeleton of a GitOps repository who will be leveraged in multiple ways to maintain, deploy and see over the deployment of 
+(a) a large number of applications, spread across
+(b) a large number of Kubernetes clusters
+(c) that are deployed in separate datacenters and/or availability zonnes
+
+
 
 [![Build status](https://github.com/kriipke/demo-gitops)](https://github.com/boolpurist/week_calendar_cli/actions)
 
